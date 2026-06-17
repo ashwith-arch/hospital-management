@@ -3,7 +3,6 @@ import { RiDashboardLine } from "react-icons/ri";
 import { MdOutlineBed } from "react-icons/md";
 import { RxPeople } from "react-icons/rx";
 import vector from "./Vector.png";
-import medicareicon from "./mediicon.png";
 import wrong from "./wrong.png";
 import { CiLogin } from "react-icons/ci";
 import { Link, useLocation } from "react-router-dom";
@@ -13,10 +12,8 @@ import { RiPulseFill } from "react-icons/ri";
 
 const Sidebar = () => {
   const location = useLocation();
-
   return (
     <div className="sidebar">
-
       <div className="header">
         <div className="header-content">
         <RiPulseFill style={{color:'white',backgroundColor:'#00A6F4',fontSize:'20px',borderRadius:'5px'}} />
@@ -26,7 +23,6 @@ const Sidebar = () => {
           <img src={wrong} className="wrong-content" width="20px" height="20px" alt="close" />
         </div>
       </div>
-
       <div className="dashboard-item">
         <Link to="/" className="text-decoration-none py-2">
           <span className={`dashboard ${location.pathname === '/' ? 'active' : ''}`}>
@@ -35,31 +31,26 @@ const Sidebar = () => {
           </span>
         </Link>
       </div>
-
       <Link to="/appointments" className="sidebar-items text-decoration-none text-secondary py-3">
         <span className="bed-management">
           <MdOutlineBed size={20} />
           &nbsp; My Appointements
         </span>
       </Link>
-
       <Link to="/patients" className="sidebar-items text-decoration-none text-secondary py-3">
         <span className="patient">
           <RxPeople size={20} />
           &nbsp; Patient Records
         </span>
       </Link>
-
       <Link to="/emr" className="sidebar-items text-decoration-none text-secondary py-3">
         <span className="vital">
           <img src={vector} width={20} height={20} alt="vitals" />
           &nbsp; EMR
         </span>
       </Link>
-
       <Link to="/prescriptions" className="sidebar-items text-decoration-none text-secondary py-3">
         <span className="task">
-          <img src={taskimg} width={20} height={20} alt="tasks" />
           &nbsp; Prescriptions
         </span>
       </Link>
@@ -69,7 +60,6 @@ const Sidebar = () => {
           &nbsp; Lab records
         </span>
       </Link>
-
       <div className="sidebar-footer">
         <div className="footer-admin">
         <RiAdminLine style={{color:'#00BCFF'}} />
@@ -83,7 +73,6 @@ const Sidebar = () => {
           <span className="logout-btn">Logout</span>
         </div>
       </div>
-
     </div>
   );
 };
