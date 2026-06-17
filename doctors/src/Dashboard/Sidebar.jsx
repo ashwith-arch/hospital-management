@@ -3,8 +3,6 @@ import { RiDashboardLine } from "react-icons/ri";
 import { MdOutlineBed } from "react-icons/md";
 import { RxPeople } from "react-icons/rx";
 import vector from "./Vector.png";
-import taskimg from "./task.png";
-import admin from "./admin.png";
 import medicareicon from "./mediicon.png";
 import wrong from "./wrong.png";
 import { CiLogin } from "react-icons/ci";
