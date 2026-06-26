@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 
-/* ─── LAYOUT ─── */
+
 .app-layout {
   display: flex;
   min-height: 100vh;
@@ -20,7 +20,7 @@ body {
   background-color: #f8fafc;
 }
 
-/* ─── SIDEBAR ─── */
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@ body {
   opacity: 0.6;
 }
 
-/* ─── NAV ITEMS ─── */
+
 .dashboard-item {
   display: flex;
   align-items: center;
@@ -119,7 +119,7 @@ body {
   font-size: 15px;
 }
 
-/* ─── SIDEBAR FOOTER ─── */
+
 .sidebar-footer {
   display: flex;
   flex-direction: column;
@@ -180,7 +180,7 @@ body {
   color: #314158;
 }
 
-/* ─── TOP NAVBAR ─── */
+
 .navbar-top {
   height: 64px;
   background-color: #fff;
@@ -927,7 +927,7 @@ body {
   cursor: pointer;
   font-size: 14px;
 }
-/* -------------Emr-------- */
+/* ---------------------------------Emr------------------------------------------ */
 .main-container {
   min-height: 100vh;
   width: 100%;
@@ -1006,7 +1006,7 @@ body {
   background-color: #006EB3;
 }
 
-/* ---- Patient Info Bar ---- */
+
 .patient-info-bar {
   display: flex;
   align-items: center;
@@ -1080,7 +1080,7 @@ body {
   white-space: nowrap;
 }
 
-/* ---- Quick Actions ---- */
+
 .quick-actions {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
