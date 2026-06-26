@@ -1,19 +1,17 @@
 import React from "react";
-import { RiDashboardLine } from "react-icons/ri";
+import { RiDashboardLine, RiHeartPulseLine, RiCloseLine, RiAdminLine, RiPulseFill } from "react-icons/ri";
 import { MdOutlineBed } from "react-icons/md";
 import { RxPeople } from "react-icons/rx";
-import { CircleUser, HeartPulse, X } from 'lucide-react';
+import { CircleUser } from 'lucide-react';
 import { Link, useLocation } from "react-router-dom";
 import { TestTube } from 'lucide-react';
-import { RiAdminLine } from "react-icons/ri";
-import { RiPulseFill } from "react-icons/ri";
 import { PiLinkSimpleBreak } from "react-icons/pi";
 
 const navItems = [
   { to: "/", label: "Dashboard", icon: <RiDashboardLine size={20} /> },
   { to: "/appointments", label: "My Appointements", icon: <MdOutlineBed size={20} /> },
   { to: "/patients", label: "Patient Records", icon: <RxPeople size={20} /> },
-  { to: "/emr", label: "EMR", icon: <HeartPulse size={20} /> },
+  { to: "/emr", label: "EMR", icon: <RiHeartPulseLine size={20} /> },
   { to: "/prescriptions", label: "Prescriptions", icon: <PiLinkSimpleBreak size={20} /> },
   { to: "/lab-orders", label: "Lab Orders", icon: <TestTube size={20} /> },
 ];
@@ -28,7 +26,7 @@ const Sidebar = () => {
           <div className="medicare-data">MediCare HIS</div>
         </div>
         <div>
-          <X className="wrong-content" size={20} />
+          <RiCloseLine className="wrong-content" size={20} />
         </div>
       </div>
       {navItems.map((item) => {
