@@ -4,7 +4,7 @@ import './Dashboard.css'
 const patients = [
   {
     id: 'PAT001', name: 'John Anderson', age: 45, gender: 'Male', blood: 'O+',
-    contact: '+1 234 567 8900', tags: ['Hypertension', 'Type 2 Diabetes'],
+    contact: '', tags: ['Hypertension', 'Type 2 Diabetes'],
     allergies: ['Penicillin'],
     visits: [
       { title: 'General Checkup', doctor: 'Dr. James Wilson | General Medicine', note: 'Routine checkup. Patient stable. Continue current medications.', date: '2025-12-15' },
@@ -22,7 +22,7 @@ const patients = [
   },
   {
     id: 'PAT002', name: 'Sarah Williams', age: 32, gender: 'Female', blood: 'A+',
-    contact: '+1 234 567 8901', tags: [],
+    contact: '', tags: [],
     allergies: [],
     visits: [
       { title: 'Annual Wellness Visit', doctor: 'Dr. James Wilson | General Medicine', note: 'No concerns reported. All vitals normal.', date: '2025-12-10' },
@@ -37,7 +37,7 @@ const patients = [
   },
   {
     id: 'PAT003', name: 'Michael Chen', age: 28, gender: 'Male', blood: 'B+',
-    contact: '+1 234 567 8902', tags: [],
+    contact: '', tags: [],
     allergies: ['Sulfa drugs'],
     visits: [
       { title: 'Sports Injury Consultation', doctor: 'Dr. Sarah Johnson | Orthopedics', note: 'Mild ankle sprain. Rest and ice recommended. Review in 2 weeks.', date: '2025-12-05' },
@@ -51,7 +51,7 @@ const patients = [
   },
   {
     id: 'PAT004', name: 'Emily Davis', age: 55, gender: 'Female', blood: 'AB+',
-    contact: '+1 234 567 8903', tags: ['Asthma', 'Migraine'],
+    contact: '', tags: ['Asthma', 'Migraine'],
     allergies: ['Aspirin', 'Latex'],
     visits: [
       { title: 'Follow-up - Asthma Management', doctor: 'Dr. James Wilson | Pulmonology', note: 'Symptoms well controlled. Continue current inhaler regimen.', date: '2025-12-12' },
@@ -67,7 +67,7 @@ const patients = [
   },
   {
     id: 'PAT005', name: 'Robert Taylor', age: 67, gender: 'Male', blood: 'O-',
-    contact: '+1 234 567 8904', tags: ['CAD', 'COPD', 'Hypertension'],
+    contact: '', tags: ['CAD', 'COPD', 'Hypertension'],
     allergies: ['Penicillin', 'Iodine contrast'],
     visits: [
       { title: 'Cardiology Follow-up', doctor: 'Dr. Sarah Johnson | Cardiology', note: 'Stable angina. Continue beta-blocker. ECG unchanged from baseline.', date: '2025-12-08' },
