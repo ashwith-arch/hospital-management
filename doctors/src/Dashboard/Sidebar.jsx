@@ -2,8 +2,6 @@ import React from "react";
 import { RiDashboardLine } from "react-icons/ri";
 import { MdOutlineBed } from "react-icons/md";
 import { RxPeople } from "react-icons/rx";
-import vector from "./Vector.png";
-import wrong from "./wrong.png";
 import { CircleUser } from 'lucide-react';
 import { Link, useLocation } from "react-router-dom";
 import { TestTube } from 'lucide-react';
