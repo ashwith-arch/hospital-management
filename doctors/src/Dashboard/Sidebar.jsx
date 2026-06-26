@@ -5,6 +5,8 @@ import { RxPeople } from "react-icons/rx";
 import { CircleUser } from 'lucide-react';
 import { Link, useLocation } from "react-router-dom";
 import { TestTube } from 'lucide-react';
+import vector from "./Vector.png";
+import wrong from "./Wrong.png";
 import { RiAdminLine } from "react-icons/ri";
 import { RiPulseFill } from "react-icons/ri";
 import { PiLinkSimpleBreak } from "react-icons/pi";
